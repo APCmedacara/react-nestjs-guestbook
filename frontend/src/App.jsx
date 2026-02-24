@@ -3,7 +3,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import "./App.css";
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://react-nestjs-guestbook-backend.onrender.com";
 
 export default function App() {
   const [comments, setComments] = useState([]);
